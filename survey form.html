@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey Form
+        </title>
+    </head>
+    <body style="background-color:antiquewhite;">
+        <form action="thank you.html" target="_blank">
+            <fieldset body style="background-color:rgb(248, 242, 235); border-color: burlywood; border-width: 3px; border-style: dashed;"> 
+                <legend align="center"><b>SURVEY FORM</b></legend>
+                <label for="Name"> Full Name:</label>
+                    <input type="text" placeholder="Enter your Name" id="Name" required><br><br>
+                    <label for="email">Email id:</label>
+                    <input type="email" id="email" placeholder="Enter valid Email id" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password"><br><br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" placeholder="Enter you age" required><br><br>
+                    <label for="skills">Which option describe your current role:</label>
+                    <label for="role-list"></label>
+    <select id="role-list">select id="fruit">
+        <option value="Student">Student</option>
+        <option value="Trainer">Trainer</option>
+        <option value="Supervisor">Supervisor</option>
+        <option value="Assistant Supervisor">Assistant Supervisor</option>
+    </select><br><br><HR>
+    <label for="recommendation">How likely is that you would recommend this to a Friend?<br>
+        <input type="radio" name="recommend" value="Definetly"> Definetly
+        </label><br>
+        <input type="radio" name="recommend" value="May Be"> May Be
+        </label><br>
+        <input type="radio" name="recommend" value="Not Sure"> Not Sure
+        </label><br><HR><br>
+        <label for="like">What do You like most in this Course:
+            </label>
+    <input type="text" id="like" list="like-list" placeholder="Select an option" required >
+    <datalist id="like-list">
+        <option value="Orientation">
+        <option value="Coding">
+        <option value="Explainations">
+        <option value="Group Activity">
+        </datalist><br><br><HR>
+        <label for="improvisation">Things that should be improved in the future:<br>
+            <input type="checkbox" name="recommend" value="Definetly"> Definetly
+            </label><br>
+            <input type="checkbox" name="recommend" value="May Be"> May Be
+            </label><br>
+            <input type="checkbox" name="recommend" value="Not Sure"> Not Sure
+            </label><HR><br>
+                <button style="background-color:rgb(244, 227, 206); 
+                color:burlywood;
+                padding: 10px;
+                border-radius: 8px;
+                border-color:bisque;
+                font-style:normal;">Submit</button><br><br>
+                </fieldset>
+        </form>
+    </body>
+</html>

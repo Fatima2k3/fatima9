@@ -1,0 +1,36 @@
+.profile-card{
+    width: 500px;
+    padding: 20px;
+    border: 2px solid grey;
+    margin:10px;
+    font-size: 20px;
+    background-color:rgb(248, 236, 238);
+    text-align: center;
+}
+.profile-card:hover{
+    opacity:0.5;
+    color:rgb(255, 151, 169);
+}
+
+.profile-img{
+    width:85%;
+    border-radius: 50%;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+h2,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:700px)
+{
+    .profile-card{
+        max-width :400px;
+    }
+    .profile-img{
+        width: 120px;
+        height: 120px;
+    }
+}
